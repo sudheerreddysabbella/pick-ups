@@ -1,0 +1,32 @@
+@keyframes Blur-beat {
+  0% {
+    -webkit-filter: blur(6px);
+  }
+  25% {
+    -webkit-filter: blur(6px);
+  }
+  30% {
+    -webkit-filter: blur(12px);
+  }
+  50% {
+    -webkit-filter: blur(8px);
+  }
+  70% {
+    -webkit-filter: blur(12px);
+  }
+  100% {
+    -webkit-filter: blur(6px);
+  }
+}
+
+@keyframes Blur-pulse {
+  0% {
+    -webkit-filter: blur(4px);
+  }
+  50% {
+    -webkit-filter: blur(12px);
+  }
+  100% {
+    -webkit-filter: blur(4px);
+  }
+}
